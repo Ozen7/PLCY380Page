@@ -1,0 +1,21 @@
+/* src/App.css */
+:root {
+  --primary-color: #7F8C8D;   /* Muted Gray */
+  --secondary-color: #95A5A6; /* Lighter Muted Gray */
+  --accent-color: #BDC3C7;    /* Even Lighter Gray */
+  --text-color: #2C3E50;      /* Dark Gray */
+  --background-color: #ECF0F1; /* Light Gray */
+}
+
+body {
+  margin-left: 0;
+  padding: 0;
+  background-color: var(--background-color);
+}
+
+.App {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 40px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

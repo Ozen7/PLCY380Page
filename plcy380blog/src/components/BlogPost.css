@@ -1,0 +1,50 @@
+/* src/components/BlogPost.css */
+.blog-post {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .blog-post:hover {
+    background-color: #D5DBDB; /* Slightly darker on hover */
+  }
+  
+  .post-title {
+    color: var(--text-color);
+    margin-bottom: 5px;
+    margin-left: 15px;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  
+  .post-date {
+    font-size: 0.8em;
+    color: var(--secondary-color);
+    margin-left: 10px;
+  }
+  
+  .arrow {
+    margin-left: 10px;
+    transition: transform 0.3s;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid var(--text-color);
+  }
+  
+  .blog-post.expanded .arrow {
+    transform: rotate(180deg);
+  }
+  
+  .post-body {
+    color: #34495e;
+    line-height: 1.6;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  
