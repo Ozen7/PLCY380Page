@@ -7,7 +7,7 @@ import { posts } from './components/posts';
 function App() {
   return (
     <div className="App">
-      <h1 className="app-title">My React Blog</h1>
+      <h1 className="app-title">PLCY380 Changemaker Challenge Blog</h1>
       {posts.map((post, index) => (
         <BlogPost
           key={index}

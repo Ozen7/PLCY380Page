@@ -7,7 +7,7 @@ export const posts = [
 <br/>
 <h3>1. What did you learn about your issue from this challenge?</h3>
         <p>
-            From the challenge, I gained a deeper understanding of the multifaceted risks posed by AI, particularly deepfakes, to personal and creative content. The documents I read highlighted that deepfakes not only have the potential to deceive audiences and influence public opinion but also present legal and ethical challenges around identity theft and intellectual property. The increasing use of AI in generating fake media, music, and art raises concerns about consent, ownership, and the potential for harm, both socially and politically.
+            From the challenge, I gained a deeper understanding of the risks posed by deepfake to personal and creative content. The documents I read mentioned that deepfakes not only have the potential to deceive audiences and influence public opinion but also present legal and ethical challenges around identity theft and intellectual property ownership. The increasing use of AI in generating fake media, music, and art raises new issues about consent and copyright, and has potential for great harm, both socially and politically.
         </p>
 
         <h3>2. What was successful or least successful? Why?</h3>
@@ -17,12 +17,12 @@ export const posts = [
 
         <h3>3. What might you do differently?</h3>
         <p>
-            If I were to approach this challenge again, I would also focus on conducting analysis of different countries' legal approaches to deepfakes and AI content theft. Understanding how various jurisdictions are tackling these challenges could provide insights into best practices and potential frameworks that could be adopted in the United States. Additionally, I would include perspectives from content creators and consumers to get a more holistic view of how these technologies impact individuals beyond just legal and academic perspectives.
+            If I were to approach this challenge again, I would also focus on conducting analysis of different countries' legal approaches to deepfakes and AI content theft. Understanding how various jurisdictions are tackling these challenges could provide insights into best practices and potential frameworks that could be adopted in the United States.
         </p>
 
         <h3>4. How will this challenge help you moving forward?</h3>
         <p>
-            This challenge has reinforced the importance of staying informed about the ethical and legal implications of emerging technologies. Moving forward, I will be more vigilant about considering the broader consequences of AI advancements in any related projects or research I undertake. The knowledge gained will also be invaluable in discussions and advocacy for better regulations and protections for individuals and creators affected by AI technologies.
+            This challenge has reinforced the importance of staying informed about the ethical and legal implications that AI brings along with its advancement. Moving forward, I will consider the broader consequences of AI advancements in any related projects or research I do. The knowledge gained will also be invaluable in discussions and advocacy for better regulations and protections for individuals and creators affected by AI technologies.
         </p>
 
         <h3>5. What questions do you have after completing this challenge?</h3>
@@ -33,7 +33,7 @@ export const posts = [
             <li>How can legislation keep pace with the rapid advancements in AI technology without stifling innovation?</li>
             <li>What role should tech companies play in preventing the misuse of AI for creating deepfakes and stealing content?</li>
             <li>How can we effectively educate the public to recognize and respond to deepfakes and AI-generated content?</li>
-            <li>Are there technological solutions, such as improved watermarking or AI-based detection systems, that can help mitigate these issues?</li>
+            <li>Are there technological solutions, such as watermarking or AI-based detection systems, that can help user distignuish real from AI-generated?</li>
         </ul>
 <br/>
 
