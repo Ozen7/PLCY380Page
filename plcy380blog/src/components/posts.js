@@ -88,7 +88,7 @@ export const posts = [
   </li>
 </ol>
       </>,
-      date: 'November 27, 2024',
+      date: 'September 27, 2024',
     },
     // Add more posts here
   ];
