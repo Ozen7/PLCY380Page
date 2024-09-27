@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PLCY380Page/static/css/main.7db69e45.css",
+    "main.js": "/PLCY380Page/static/js/main.43a4d342.js",
+    "static/js/453.f3f35990.chunk.js": "/PLCY380Page/static/js/453.f3f35990.chunk.js",
+    "index.html": "/PLCY380Page/index.html",
+    "main.7db69e45.css.map": "/PLCY380Page/static/css/main.7db69e45.css.map",
+    "main.43a4d342.js.map": "/PLCY380Page/static/js/main.43a4d342.js.map",
+    "453.f3f35990.chunk.js.map": "/PLCY380Page/static/js/453.f3f35990.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7db69e45.css",
+    "static/js/main.43a4d342.js"
+  ]
+}
