@@ -1,23 +1,148 @@
+import ConfirmationImage from "./img/image.png";
+
 export const posts = [
   {
     title: "PLCY Changemaker Challenge 3",
     body: (
       <>
-      <h2>
-        Event Details about the event (date, location, title, etc.)
-      </h2>
-      <h2>
-        Registration Confirmation, Video of event
-      </h2>
-      <h2>
-        Event Summary
-      </h2>
-      <h2>
-        Takeaways
-      </h2>
-      <h2>
-        Reflection Prompts
-      </h2>
+        <h2>Event Details about the event (date, location, title, etc.)</h2>
+        <p>
+          The event I attended was hosted by the University of Reading, and was
+          titled "Deepfakes and AI in Film and Media: Seeing is Not Believing".
+          The event took place on on October 30, 2024 from 3:30 - 5:00 PM EST,
+          and was led by Dr.Dominic Lees. Since The University of Reading is
+          located in the UK, I was unable to attend in person, but attended the
+          talk remotely.
+        </p>
+        <h2>Registration Confirmation, Video of event</h2>
+        <h3>Here is the confirmation of my attendance/registration</h3>
+        <img src={ConfirmationImage} alt="Image of Confirmation Email"></img>
+        <h3>Link to the recording of the event online:</h3>
+        <a href="https://www.youtube.com/live/SkPT3ueTNvQ">
+          https://www.youtube.com/live/SkPT3ueTNvQ
+        </a>
+        <h2>Event Summary</h2>
+        <p>
+          This lecture led by Dr.Lees had a bit of a "ted-talk" esque format,
+          and explored the increasing use of AI and generative technology in
+          media, focusing on the implications for public trust, democracy, and
+          the entertainment industry. It highlighted the challenges posed by
+          deepfakes and AI-generated content, emphasizing the potential risks
+          and cultural impact as these technologies continue to evolve. Dr.Lees
+          also discussed how deepfakes are being used not only in online
+          misinformation campaigns but also in mainstream film production,
+          showcasing both the creative potential of these innovations. As an
+          insider to the industry, Dr.Lees had a wealth of examples and
+          experience to share with the audience to punctuate his points about
+          how exactly the film industry was both adapting to and fighting back
+          against the inclusion of generative AI in filmmaking. The lecture
+          aimed to raise awareness about how AI and deepfake technologies are
+          blurring the lines between reality and fabrication, and the importance
+          of developing policies and safeguards to address these emerging
+          threats. The event encouraged participants to consider the broader
+          societal impact of AI on truth, trust, and the future of digital
+          media.
+        </p>
+        <h2>Takeaways</h2>
+        <p>
+          One of the most interesting parts of this event that I immediately
+          noticed was that it was targeted towards a non-technical audience,
+          targeting creative liberal arts majors rather than, say, STEM or
+          Law-adjacent majors. As someone who is intimate with these
+          technologies from a technical perspective, it was refreshing to see it
+          from another point of view: a complex, difficult-to-grasp emerging
+          technology that raises more questions than it answers as it gets
+          increasingly capable.
+        </p>
+        <p>
+          The event also raised some points that I had not come across yet, ways
+          of using AI as a creative tool to augment existing media rather than
+          replace it. Dr.Lees brought up the rise of fan casting, allowing
+          individuals and fans to "recast" movie scenes with their own choice of
+          actors. He also brought up the cultural revolution being brought about
+          in documentary films, where important or long pieces of literature can
+          be said in the voice of the person who wrote it, even if they are long
+          deceased.
+        </p>
+        <p>
+          These emerging ways to use this new technology in media were, however,
+          dullened by the sobering dangers of these technologies. In a
+          politically unstable time right before the incredibly close US
+          elections, deepfakes can be used to disseminate untrue information
+          incredibly quickly and potentially unfairly tilt the scales of the
+          election towards a particular side. Additionally, unconsentual and
+          explicit deepfakes have exploded in availability, with legal
+          protections being offerred to victims only recently in the UK.
+        </p>
+        <h2>Reflection Prompts</h2>
+        <h3>1. What did you learn about your issue from this challenge?</h3>
+        <p>
+          From this event, I gained insight into both the positive and negative
+          aspects of AI and deepfake technology in film and media. I learned
+          about their creative potential in enhancing storytelling, such as fan
+          casting and voice recreation of the deceased in video form, while also
+          understanding the significant threats these technologies pose to both
+          individuals and to general political stability. The discussion about
+          AI being used in misinformation campaigns and unconsensual deepfake
+          content highlighted the urgent need for regulations and safeguards.
+        </p>
+
+        <h3>2. What was successful or least successful? Why?</h3>
+        <p>
+          A major success that I noticed in the event lay in its ability to
+          effectively communicate the merging of a complex technical topic and a
+          deeply creative field to a varied audience. The topic of deepfakes was
+          wonderfully and consisely summarized in a way that was easy to pick
+          up, and I personally found my knowledge of the filmmaking industry
+          grow as a result of the examples and points made by Dr.Lees. However,
+          I felt that the least successful aspect was that while the talk
+          highlighted the risks, it did not offer many concrete solutions or
+          strategies for addressing these issues. The focus was primarily on
+          raising awareness rather than providing actionable steps to reduce the
+          problems surrounding generative AI.
+        </p>
+
+        <h3>3. What might you do differently?</h3>
+        <p>
+          If I had another shot at this activity, I would definitely choose to
+          attend the UMD talk that I was initially intending to attend. The link
+          for the event I wanted to attend is{" "}
+          <a href="https://talks.cs.umd.edu/talks/4013">
+            https://talks.cs.umd.edu/talks/4013
+          </a>
+          , and was aimed more towards AI and the privacy risks introduced by it
+          for the average person instead of its impact on the filmmaking
+          industry. While the event I ended up attending was very eye-opening
+          and allowed for reflection on these topics from a new direction, the
+          original talk I meant to attend was more attuned to the direction that
+          I was interested in researching.
+        </p>
+
+        <h3>4. How will this challenge help you moving forward?</h3>
+        <p>
+          As I continue to work with AI and deep learning technologies, it's
+          important to consider the ethical and cultural sides of these
+          innovations. Understanding how these technologies are perceived by the
+          general public and the potential harm they could cause both to the
+          public and to a vast industry such as filmmaking helps me take a more
+          responsible approach in my work. Taking a peek at the good and bad of
+          new emerging technologies and techniques on other industries will give
+          me a more solid idea as to the greater context of any achievments I
+          make as a STEM major.
+        </p>
+
+        <h3>5. What questions do you have after completing this challenge?</h3>
+        <p>
+          After attending this event, I have several questions: What are some of
+          the most effective measures to prevent the spread of harmful deepfake
+          content, especially during politically sensitive times? How can
+          harmful deepfakes be mitigated, especially in an era where
+          fact-checking and correcting of information holds so little weight?
+          How can we strike a balance between encouraging creative uses of
+          deepfake technology in film and media while ensuring they aren't
+          misused? What role can technologists like myself play in creating
+          safeguards or tools to mitigate these risks?
+        </p>
       </>
     ),
     date: "10/31/24",
