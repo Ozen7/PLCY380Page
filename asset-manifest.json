@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/PLCY380Page/static/css/main.7db69e45.css",
-    "main.js": "/PLCY380Page/static/js/main.aa12649a.js",
+    "main.js": "/PLCY380Page/static/js/main.e1275c0c.js",
     "static/js/453.f3f35990.chunk.js": "/PLCY380Page/static/js/453.f3f35990.chunk.js",
+    "static/media/image.png": "/PLCY380Page/static/media/image.332d8bba46a18e62bed6.png",
     "index.html": "/PLCY380Page/index.html",
     "main.7db69e45.css.map": "/PLCY380Page/static/css/main.7db69e45.css.map",
-    "main.aa12649a.js.map": "/PLCY380Page/static/js/main.aa12649a.js.map",
+    "main.e1275c0c.js.map": "/PLCY380Page/static/js/main.e1275c0c.js.map",
     "453.f3f35990.chunk.js.map": "/PLCY380Page/static/js/453.f3f35990.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7db69e45.css",
-    "static/js/main.aa12649a.js"
+    "static/js/main.e1275c0c.js"
   ]
 }
