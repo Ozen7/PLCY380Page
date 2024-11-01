@@ -1,5 +1,28 @@
 export const posts = [
   {
+    title: "PLCY Changemaker Challenge 3",
+    body: (
+      <>
+      <h2>
+        Event Details about the event (date, location, title, etc.)
+      </h2>
+      <h2>
+        Registration Confirmation, Video of event
+      </h2>
+      <h2>
+        Event Summary
+      </h2>
+      <h2>
+        Takeaways
+      </h2>
+      <h2>
+        Reflection Prompts
+      </h2>
+      </>
+    ),
+    date: "10/31/24",
+  },
+  {
     title: "PLCY Changemaker Challenge 1",
     body: (
       <>
