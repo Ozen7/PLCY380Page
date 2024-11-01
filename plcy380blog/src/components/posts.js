@@ -16,7 +16,7 @@ export const posts = [
         </p>
         <h2>Registration Confirmation, Video of event</h2>
         <h3>Here is the confirmation of my attendance/registration</h3>
-        <img src={ConfirmationImage} alt="Image of Confirmation Email"></img>
+        <img src={ConfirmationImage} alt="Image of Confirmation Email" style={{width: "50vw"}} />
         <h3>Link to the recording of the event online:</h3>
         <a href="https://www.youtube.com/live/SkPT3ueTNvQ">
           https://www.youtube.com/live/SkPT3ueTNvQ
