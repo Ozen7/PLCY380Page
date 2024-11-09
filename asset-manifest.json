@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PLCY380Page/static/css/main.7db69e45.css",
-    "main.js": "/PLCY380Page/static/js/main.c802fb3d.js",
+    "main.css": "/PLCY380Page/static/css/main.5bc2e956.css",
+    "main.js": "/PLCY380Page/static/js/main.db308fe1.js",
     "static/js/453.f3f35990.chunk.js": "/PLCY380Page/static/js/453.f3f35990.chunk.js",
     "static/media/image.png": "/PLCY380Page/static/media/image.332d8bba46a18e62bed6.png",
     "index.html": "/PLCY380Page/index.html",
-    "main.7db69e45.css.map": "/PLCY380Page/static/css/main.7db69e45.css.map",
-    "main.c802fb3d.js.map": "/PLCY380Page/static/js/main.c802fb3d.js.map",
+    "main.5bc2e956.css.map": "/PLCY380Page/static/css/main.5bc2e956.css.map",
+    "main.db308fe1.js.map": "/PLCY380Page/static/js/main.db308fe1.js.map",
     "453.f3f35990.chunk.js.map": "/PLCY380Page/static/js/453.f3f35990.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7db69e45.css",
-    "static/js/main.c802fb3d.js"
+    "static/css/main.5bc2e956.css",
+    "static/js/main.db308fe1.js"
   ]
 }
