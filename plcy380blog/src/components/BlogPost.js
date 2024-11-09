@@ -4,14 +4,28 @@ import './BlogPost.css';
 
 const BlogPost = ({ title, body, date }) => {
   const [isExpanded, setIsExpanded] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
 
   const togglePost = () => {
     setIsExpanded(!isExpanded);
   };
 
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
   return (
-    <div className={`blog-post ${isExpanded ? 'expanded' : ''}`} onClick={togglePost}>
-      <h2 className="post-title">
+    <div className={`blog-post ${isExpanded ? 'expanded' : ''} ${isHovered ? 'hovered' : ''}`}>
+      <h2
+        className="post-title"
+        onClick={togglePost}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
         {title}
         <span className="post-date">{date}</span>
         <span className="arrow">{/* Arrow will be styled in CSS */}</span>

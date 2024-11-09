@@ -2,6 +2,119 @@ import ConfirmationImage from "./img/image.png";
 
 export const posts = [
   {
+    title: "PLCY Changemaker Challenge 4",
+    body: (
+      <>
+        <h2>Challenge Chosen, Supporting Materials</h2>
+        <p>
+          I did the Instagram Carousel Challenge. (Challenge J). I started by
+          collecting a wide variety of statistics and into level information
+          about my topic (Deepfakes, AI Art, and their social consequences), and
+          went from there, splitting the information into 8 parts, designing,
+          and eventually creating each slide (along with a title slide, 2 source
+          slides, and an additional information/cool links slide)
+        </p>
+        <p>
+          My carousel was made on Figma, a design tool that I've used in the
+          past for UX/UI Design. Although there definitely were easier options
+          using software made to create instagram content, I like the freedom
+          that Figma brings, freely being able to drag things around, mess with
+          text and images, and add my own spin to things. However, creating the
+          slides in this way was very very exhausting and took far longer than I
+          expected, while also resulting in a set of slides that are... rough
+          around the edges. Either way, I'm satisfied with my creation, and you
+          can find the link right below!
+        </p>
+        <a
+          target="_blank"
+          href="https://www.figma.com/design/6JONKOJY9gGnbP8SS3HJ3s/Deepfakes%26AI-Instagram-Carousel?node-id=0-1&node-type=canvas&t=nDABp40NtJNCEyPa-0"
+        >
+          {" "}
+          https://www.figma.com/design/6JONKOJY9gGnbP8SS3HJ3s/Deepfakes%26AI-Instagram-Carousel?node-id=0-1&node-type=canvas&t=nDABp40NtJNCEyPa-0{" "}
+        </a>
+        <h2>Reflection</h2>
+        <h4>
+          What did your notice or observe while doing this challenge? What did
+          you learn, in general, from this challenge? What did you learn about
+          your issue from this challenge?
+        </h4>
+        <p>
+          As I worked on this challenge, I noticed the nuanced ways that legal,
+          ethical, and social issues overlap with AI-generated content,
+          especially in the realms of deepfakes and AI art. The widespread
+          access to these technologies has opened many doors for potential
+          misuse, ones that are increasingly severe and difficult to catch, but
+          also surprisingly hidden from the public eye. The introduction of
+          memes and jokes on the internet about these technologies has led the
+          public conciousness to mostly ignore the severe issues it brings to
+          the table. Specifically, I observed that there is still a lack of
+          clear legal frameworks to manage these new technologies, even with the
+          risks they pose to intellectual property and even someone's bodily
+          autonomy and image.
+        </p>
+        <h4>What was successful or least successful? Why?</h4>
+        <p>
+          One of the most successful aspects was the actual making of the
+          carousel. Condensing complex issues into bite-sized, easily digestible
+          content was challenging but effective in making the material
+          accessible to a broader audience and pushed me to better understand my
+          topic so that I am able to summarize it properly. However, I found it
+          challenging to provide adequate context for all points within the
+          limits of Instagram’s format, which may have left certain points
+          feeling simplified. Balancing depth with simplicity was difficult,
+          highlighting the need for clear prioritization when communicating
+          complex topics. I often had to step back and cut some parts out in
+          order to make sure that the page wasn't too overwhelming for the
+          audience. Even then, I feel as though I could do with shortening quite
+          a few of the slides I ended up with
+        </p>
+        <h4>What might you do differently?</h4>
+        <p>
+          I would definitely use a different software than figma. Although the
+          increased freedom was great, I ended up using a lot more effort for a
+          slightly worse looking end product. If I had used a tool purpose-built
+          for this stuff, I definitely could have accomplished a lot more in
+          less time.
+        </p>
+        <h4>What questions do you have after completing this challenge?</h4>
+        <p>
+          This project left me with some questions about instagram posts and
+          social media reach out. I realized that there really is a lot more
+          effort that goes into this sort of communication than I gave credit
+          for, and am wondering how effective it actually is. Do people digest
+          insights faster or more effectively this way? Is it worth weeks of
+          effort just for most people to scroll by immediately? What numbers do
+          the professionally-made instagram infographic carousels pull? How many
+          people do these normally find?
+        </p>
+        <h4>
+          What do you feel you’ve learned about social change or changemaking
+          from completing this challenge?
+        </h4>
+        <p>
+          Changemaking is hard, its hard to collect and refine and design so
+          much just to have a higher chance of catching someone's eye and
+          hopefully educating them about an issue. I've often scrolled past or
+          looked through these sorts of instagram carousels, and never truly
+          appreciated the time and dedication that others put in to get their
+          message out there in such an easily digestible, convenient, and
+          nice-looking way.
+        </p>
+        <h4>How will this challenge help you moving forward?</h4>
+        <p>
+          Although I did struggle with Figma, I think that my graphic design
+          skills have definitely gone up a notch with this project. Also, I now
+          know of these resources to help me create this sort of social media
+          outreach if it ever comes down to it. Although I don't see myself
+          doing much of this in the future, I'll definitely slow down and
+          appreciate someone else's work and time whenever a well-crafted
+          instagram carousel about something comes across my timeline.
+        </p>
+      </>
+    ),
+    date: "11/8/24",
+  },
+  {
     title: "PLCY Changemaker Challenge 3",
     body: (
       <>
@@ -16,7 +129,11 @@ export const posts = [
         </p>
         <h2>Registration Confirmation, Video of event</h2>
         <h3>Here is the confirmation of my attendance/registration</h3>
-        <img src={ConfirmationImage} alt="Image of Confirmation Email" style={{width: "50vw"}} />
+        <img
+          src={ConfirmationImage}
+          alt="Image of Confirmation Email"
+          style={{ width: "50vw" }}
+        />
         <h3>Link to the recording of the event online:</h3>
         <a href="https://www.youtube.com/live/SkPT3ueTNvQ">
           https://www.youtube.com/live/SkPT3ueTNvQ
@@ -107,7 +224,7 @@ export const posts = [
           If I had another shot at this activity, I would definitely choose to
           attend the UMD talk that I was initially intending to attend. The link
           for the event I wanted to attend is{" "}
-          <a href="https://talks.cs.umd.edu/talks/4013">
+          <a target="_blank" href="https://talks.cs.umd.edu/talks/4013">
             https://talks.cs.umd.edu/talks/4013
           </a>
           , and was aimed more towards AI and the privacy risks introduced by it
@@ -506,14 +623,20 @@ export const posts = [
               The dangers of manipulated media and video: Deepfakes and more
             </em>
             . Retrieved from{" "}
-            <a href="https://www.adl.org/resources/blog/dangers-manipulated-media-and-video-deepfakes-and-more">
+            <a
+              target="_blank"
+              href="https://www.adl.org/resources/blog/dangers-manipulated-media-and-video-deepfakes-and-more"
+            >
               https://www.adl.org/resources/blog/dangers-manipulated-media-and-video-deepfakes-and-more
             </a>
           </li>
           <li>
             U.S. Department of Homeland Security. (2023).{" "}
             <em>Increasing threat of deepfake identities</em>. Retrieved from{" "}
-            <a href="https://www.dhs.gov/sites/default/files/publications/increasing_threats_of_deepfake_identities_0.pdf">
+            <a
+              target="_blank"
+              href="https://www.dhs.gov/sites/default/files/publications/increasing_threats_of_deepfake_identities_0.pdf"
+            >
               https://www.dhs.gov/sites/default/files/publications/increasing_threats_of_deepfake_identities_0.pdf
             </a>
           </li>
@@ -524,7 +647,10 @@ export const posts = [
               fact-checking and deepfake detection
             </em>{" "}
             [Video]. YouTube. Retrieved from{" "}
-            <a href="https://www.youtube.com/watch?v=QlNGD_QLcZE">
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=QlNGD_QLcZE"
+            >
               https://www.youtube.com/watch?v=QlNGD_QLcZE
             </a>
           </li>
@@ -533,7 +659,10 @@ export const posts = [
             &amp; Picard, R. (2024, September 2). Human detection of political
             speech deepfakes across transcripts, audio, and video.{" "}
             <em>Nature Communications</em>, 15(1), Article 51998.{" "}
-            <a href="https://doi.org/10.1038/s41467-024-51998-z">
+            <a
+              target="_blank"
+              href="https://doi.org/10.1038/s41467-024-51998-z"
+            >
               https://doi.org/10.1038/s41467-024-51998-z
             </a>
           </li>
@@ -541,7 +670,10 @@ export const posts = [
             Bond, S. (2024, February 8). AI fakes raise election risks as
             lawmakers and tech companies scramble to catch up. <em>NPR</em>.
             Retrieved from{" "}
-            <a href="https://www.npr.org/2024/02/08/1229641751/ai-deepfakes-election-risks-lawmakers-tech-companies-artificial-intelligence">
+            <a
+              target="_blank"
+              href="https://www.npr.org/2024/02/08/1229641751/ai-deepfakes-election-risks-lawmakers-tech-companies-artificial-intelligence"
+            >
               https://www.npr.org/2024/02/08/1229641751/ai-deepfakes-election-risks-lawmakers-tech-companies-artificial-intelligence
             </a>
           </li>
@@ -549,14 +681,20 @@ export const posts = [
             Quirk, C. (2024). The high stakes of deepfakes: The growing
             necessity of federal legislation to regulate this rapidly evolving
             technology. <em>Princeton Legal Journal</em>. Retrieved from{" "}
-            <a href="https://legaljournal.princeton.edu/the-high-stakes-of-deepfakes-the-growing-necessity-of-federal-legislation-to-regulate-this-rapidly-evolving-technology/">
+            <a
+              target="_blank"
+              href="https://legaljournal.princeton.edu/the-high-stakes-of-deepfakes-the-growing-necessity-of-federal-legislation-to-regulate-this-rapidly-evolving-technology/"
+            >
               https://legaljournal.princeton.edu/the-high-stakes-of-deepfakes-the-growing-necessity-of-federal-legislation-to-regulate-this-rapidly-evolving-technology/
             </a>
           </li>
           <li>
             National Conference of State Legislatures. (2024, May 7). Deceptive
             audio or visual media (‘deepfakes’) 2024 legislation. Retrieved from{" "}
-            <a href="https://www.ncsl.org/technology-and-communication/deceptive-audio-or-visual-media-deepfakes-2024-legislation">
+            <a
+              target="_blank"
+              href="https://www.ncsl.org/technology-and-communication/deceptive-audio-or-visual-media-deepfakes-2024-legislation"
+            >
               https://www.ncsl.org/technology-and-communication/deceptive-audio-or-visual-media-deepfakes-2024-legislation
             </a>
           </li>
@@ -564,28 +702,40 @@ export const posts = [
             DMCA Agent Service. (2019, August 6).{" "}
             <em>Deepfakes - Can you use copyright law and the DMCA?</em>{" "}
             [Video]. YouTube. Retrieved from{" "}
-            <a href="https://www.youtube.com/watch?v=_dVFkw9FJPI">
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=_dVFkw9FJPI"
+            >
               https://www.youtube.com/watch?v=_dVFkw9FJPI
             </a>
           </li>
           <li>
             Chayka, K. (2023, February 10). Is A.I. art stealing from artists?{" "}
             <em>The New Yorker</em>. Retrieved from{" "}
-            <a href="https://www.newyorker.com/culture/infinite-scroll/is-ai-art-stealing-from-artists">
+            <a
+              target="_blank"
+              href="https://www.newyorker.com/culture/infinite-scroll/is-ai-art-stealing-from-artists"
+            >
               https://www.newyorker.com/culture/infinite-scroll/is-ai-art-stealing-from-artists
             </a>
           </li>
           <li>
             Olson, Z. (2024, February 28). Op-Ed: AI art is art theft and should
             be a crime. <em>The Eagle Online</em>. Retrieved from{" "}
-            <a href="https://www.theeagleonline.com/article/2024/01/op-ed-ai-art-is-art-theft-and-should-be-a-crime">
+            <a
+              target="_blank"
+              href="https://www.theeagleonline.com/article/2024/01/op-ed-ai-art-is-art-theft-and-should-be-a-crime"
+            >
               https://www.theeagleonline.com/article/2024/01/op-ed-ai-art-is-art-theft-and-should-be-a-crime
             </a>
           </li>
           <li>
             Cole, C., &amp; Aft, A. (2024, August 14). US Copyright Office calls
             for federal law on deepfakes. Retrieved from{" "}
-            <a href="https://www.connectontech.com/us-copyright-office-calls-for-federal-law-on-deepfakes/">
+            <a
+              target="_blank"
+              href="https://www.connectontech.com/us-copyright-office-calls-for-federal-law-on-deepfakes/"
+            >
               https://www.connectontech.com/us-copyright-office-calls-for-federal-law-on-deepfakes/
             </a>
           </li>
@@ -593,7 +743,10 @@ export const posts = [
             Extra Credits. (2023, February 8).{" "}
             <em>AI Art: Copyright, Ownership and Infringement (oh my!)</em>{" "}
             [Video]. YouTube.{" "}
-            <a href="https://www.youtube.com/watch?v=SvV8hZg9-XI">
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=SvV8hZg9-XI"
+            >
               https://www.youtube.com/watch?v=SvV8hZg9-XI
             </a>
           </li>
@@ -603,14 +756,20 @@ export const posts = [
               ChatGPT and Generative AI Are Hits! Can Copyright Law Stop Them?
             </em>{" "}
             [Video]. YouTube.{" "}
-            <a href="https://www.youtube.com/watch?v=bRqwTP2eKJY">
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=bRqwTP2eKJY"
+            >
               https://www.youtube.com/watch?v=bRqwTP2eKJY
             </a>
           </li>
           <li>
             LegalEagle. (2023, January 26). <em>A.I. Versus The Law</em>{" "}
             [Video]. YouTube.{" "}
-            <a href="https://www.youtube.com/watch?v=G08hY8dSrUY">
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=G08hY8dSrUY"
+            >
               https://www.youtube.com/watch?v=G08hY8dSrUY
             </a>
           </li>
@@ -622,7 +781,10 @@ export const posts = [
               antitrust violations
             </em>{" "}
             [Press release].{" "}
-            <a href="https://www.klobuchar.senate.gov/public/index.cfm/2024/9/klobuchar-colleagues-urge-justice-department-federal-trade-commission-to-investigate-generative-ai-products-for-potential-antitrust-violations">
+            <a
+              target="_blank"
+              href="https://www.klobuchar.senate.gov/public/index.cfm/2024/9/klobuchar-colleagues-urge-justice-department-federal-trade-commission-to-investigate-generative-ai-products-for-potential-antitrust-violations"
+            >
               https://www.klobuchar.senate.gov/public/index.cfm/2024/9/klobuchar-colleagues-urge-justice-department-federal-trade-commission-to-investigate-generative-ai-products-for-potential-antitrust-violations
             </a>
           </li>
