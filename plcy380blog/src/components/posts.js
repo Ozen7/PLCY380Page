@@ -1,8 +1,8 @@
 import ConfirmationImage from "./img/image.png";
 import email from "./img/email.png";
 import reqs from "./img/Screenshot 2024-12-06 at 11.55.37 PM.png"
-import prog1 from "./img/IMG_1547.png"
-import prog2 from "./img/IMG_1570.png"
+import prog1 from "./img/IMG_1547.jpeg"
+import prog2 from "./img/IMG_1570.jpeg"
 import prog3 from "./img/IMG_1592.png"
 export const posts = [
   {
