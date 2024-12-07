@@ -2,6 +2,48 @@ import ConfirmationImage from "./img/image.png";
 import email from "./img/email.png";
 export const posts = [
   {
+    title: "PLCY Changemaker Challenge 6",
+    body: (
+      <>
+        <h2>Challenge Chosen, Supporting Materials</h2>
+        I chose Challenge H: The puchase challenge for this changemaker.
+        <h2>Reflection</h2>
+        <h4>
+          What did your notice or observe while doing this challenge? What did
+          you learn, in general, from this challenge? What did you learn about
+          your issue from this challenge?
+        </h4>
+        <p>
+          
+        </p>
+        <h4>What was successful or least successful? Why?</h4>
+        <p>
+          
+        </p>
+        <h4>What might you do differently?</h4>
+        <p>
+          
+        </p>
+        <h4>What questions do you have after completing this challenge?</h4>
+        <p>
+          
+        </p>
+        <h4>
+          What do you feel you’ve learned about social change or changemaking
+          from completing this challenge?
+        </h4>
+        <p>
+          
+        </p>
+        <h4>How will this challenge help you moving forward?</h4>
+        <p>
+          
+        </p>
+      </>
+    ),
+    date: "12/6/24",
+  },
+  {
     title: "PLCY Changemaker Challenge 5",
     body: (
       <>
