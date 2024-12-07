@@ -1,12 +1,44 @@
 import ConfirmationImage from "./img/image.png";
 import email from "./img/email.png";
+import reqs from "./img/Screenshot 2024-12-06 at 11.55.37 PM.png"
+import prog1 from "./img/IMG_1547.png"
+import prog2 from "./img/IMG_1570.png"
+import prog3 from "./img/IMG_1592.png"
 export const posts = [
   {
     title: "PLCY Changemaker Challenge 6",
     body: (
       <>
         <h2>Challenge Chosen, Supporting Materials</h2>
+        <p>
         I chose Challenge H: The puchase challenge for this changemaker.
+        </p>
+        <p>
+        Since my topic is about Generative AI and its effects on the social space, I decided to contribute to the online artist community by commissioning myself a new profile picture!
+        I asked my artist friends and family about the proper ettiquette, and found an artist through one of my sisters that was familiar with the
+        source material of the profile picture that I wanted, which was from a show called Arcane. She reached out to me,
+        and let me know what her conditions were, shown below:
+        </p>
+        <img  src={reqs}
+              alt="Image of Artist's Requirements"
+              style={{ width: "50vw" }}/>
+        <p>
+          Throughout the process of drawing, she continued to send me interminnent updates, starting with a sketch/wireframe, then 
+          adding details that I wanted (such as a man bun), and then finally coloring and rendering the art piece, including making
+          tweaks that I wanted throughout the process (such as darkening the back a little bit). Some images of the progress are shown below:
+        </p>
+        <img src={prog1} alt="Phase I of picture"
+              style={{ width: "50vw" }}></img>
+        <img src={prog2} alt="Phase II of picture"
+              style={{ width: "50vw" }}></img>
+        <img src={prog3}alt="Phase III of picture"
+              style={{ width: "50vw" }}></img>
+        <p>
+          Overall, it was a very positive experience, with the artist setting clear boundaries on what they wanted from me, and 
+          me setting clear expectations of what I wanted from her. The transaction was 30$ total, with the artist normally taking
+          50% up front and 50% later, but allowing me to pay later since she knows my sister well.
+        </p>
+
         <h2>Reflection</h2>
         <h4>
           What did your notice or observe while doing this challenge? What did
@@ -14,30 +46,49 @@ export const posts = [
           your issue from this challenge?
         </h4>
         <p>
-          
+          It was quite a streamlined process, more than I thought it would be. And quite honestly, I recieved a product that 
+          I never would have been able to make with AI, even with 100 years of prompting. Being able to connect with the artist
+          and ask for exactly what I wanted was a novel experience, and it made me realize just how much AI art stifles curiosity
+          and imagination by outputting generic and boring "artwork".
         </p>
         <h4>What was successful or least successful? Why?</h4>
         <p>
-          
+          I think the most successful part was the commissioning of the art itself. It was very quick, and she needed only a little bit of
+          description as well as a source image to get started immediately. I honestly found myself in awe of how effective she was at
+          understanding my intentions and bringing it to life. I really can't think of something that wasn't successful about this process,
+          it really was just a generally positive experience from my end.
         </p>
         <h4>What might you do differently?</h4>
         <p>
-          
+          If I could do it differently, I would probably try approaching an artist online that I don't know beforehand rather than a 
+          friend of my sister. I think it would have made the experience more "authentic" to how a regular experience of commissioning art 
+          online goes, and would have given me some really great insights.
         </p>
         <h4>What questions do you have after completing this challenge?</h4>
         <p>
-          
+          I am curious what proportion of people who make use of AI art have actually tried commissioning art, and what the reasons are for
+          people who make use from AI art. The first thing that comes to mind is cost, but I think for something like a profile picture,
+          a painting, or generally something you want to admire, using AI art just seems... insufficient. Art is admired because of the skill
+          (and honestly, cost) of obtaining it. There is no intrinsic value to AI generated art, whether from a human effort or monetary perspective, 
+          so it seems sort of backwards to use AI for people who are perfectly capable of commisioning art.
         </p>
         <h4>
           What do you feel you’ve learned about social change or changemaking
           from completing this challenge?
         </h4>
         <p>
-          
+          Social change is an uphill battle. I may have helped out a single artist by creating a single commission, but they can't compete
+          against the sheer efficiency and speed of a machine. It sort of reminds me of John Henry and the mining machine, where somoene's talent
+          honed and polished over years and decades is "replicated" through a machine, which is then used to explicitly replace the person it was based off of.
+          People like to follow the path of least resistance, and in the modern art economy, that means going for AI, even if it means artists suffer.
+          Most people simply don't have the ability to create or the money to commission, so they turn to AI instead.
         </p>
         <h4>How will this challenge help you moving forward?</h4>
         <p>
-          
+          Moving forward, I think I'll be more amenable to commissioning art. It was an enjoyable experience, and a great first experience too.
+          I often have pictures of characters or settings or people in my head that I would like to have for personal enjoyment, but don't have the time 
+          to put towards actually making the art myself (I'm quite good at vector art), so this is a cool alternative that I will continue to use
+          throughout my life if I ever want something drawn.
         </p>
       </>
     ),
