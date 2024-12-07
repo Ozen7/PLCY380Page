@@ -1,6 +1,149 @@
 import ConfirmationImage from "./img/image.png";
-
+import email from "./img/email.png";
 export const posts = [
+  {
+    title: "PLCY Changemaker Challenge 5",
+    body: (
+      <>
+        <h2>Challenge Chosen, Supporting Materials</h2>
+        <p>
+          I did Challenge E, the Advocacy Challenge. I first started by figuring
+          out who my elected officials were through{" "}
+          <a href="https://www.maryland.gov/Pages/default.aspx">Maryland.gov</a>
+          , figuring out who represented me at all levels of government, and who
+          I would have to email for any given issue. Once I had that figured
+          out, I started looking for an angle to lobby one of these officials
+          from. I knew I wanted to talk in support of restricting AI and
+          deepfake technologies in the social space, but I needed more
+          information about past movements and laws passed.
+        </p>
+        <p>
+          While I was searching, I found{" "}
+          <a href="https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0145?ys=2024RS#:~:text=Establishing%20that%20the%20statute%20of,that%20is%20indistinguishable%20from%20an">
+            HB0145
+          </a>
+          , a law meant to establish that unconsentual deep fake imagery can be
+          considered harrassment and is illegal in the court of law up to 5
+          years after it has been distributed. Notably, this didn't do much for
+          the creation of deepfakes but for the distribution, but it was a solid
+          start after Maryland has failed to get anything more than an election
+          and elected official related deepfake law passed over the past year.
+        </p>
+        <p>
+          This law had passed the house unanimously, but died in committee for
+          some reason, and I wanted to urge my senator to reintroduce it in the
+          next session. Thus, I sent an email to my senator representative Nancy
+          King, urging her to do so. below is the email, as well as a screenshot
+          showing the email's metadata. I have cut out my personal information
+          from the end of the email
+        </p>
+        <h2>Email:</h2>
+        <p>Dear Senator King,</p>I hope this email finds you well, and I wish
+        you a happy Thanksgiving. My name is Nebil Ozer, and I am a resident of
+        Gaithersburg in District 39. I am writing to express my concern
+        regarding the misuse of deepfake technology and the significant harm it
+        causes, particularly in the context of non-consensual explicit content
+        and revenge porn.
+        <p>
+          Earlier this year, House Bill 145 (HB0145), which aimed to address
+          these issues, passed unanimously in the House but did not advance out
+          of the Senate Judicial Proceedings Committee. I believe this bill
+          represents an essential step in protecting Maryland residents from the
+          malicious use of synthetic media, and I urge you to consider
+          supporting its reintroduction in the next legislative session.
+        </p>
+        The rise of deepfake technology has led to devastating consequences for
+        victims whose likenesses are manipulated without consent. This issue is
+        not only a violation of privacy but also a threat to public trust in
+        digital content. Legislation like HB0145 would have established clear
+        penalties for these harmful actions while providing much-needed recourse
+        for victims, who would otherwise need to fight extended legal battles.
+        <p>
+          As someone from a Muslim household, modesty and privacy are deeply
+          important cultural values. The violation that deepfakes represent
+          conflicts with our belief in maintaining our personal dignity and
+          protecting our image from misuse. This, combined with the social
+          issues surrounding non consensual usage of one's image makes the harms
+          of deepfake misuse all the more concerning to me.
+        </p>
+        Thank you for your time and for your dedication to serving our
+        community, and I wish you all the best.
+        <p>Sincerely, Nebil Ahmet Ozer</p>
+        <img
+          src={email}
+          alt="Image of Email to Senator"
+          style={{ width: "50vw" }}
+        />
+        <h2>Reflection Questions:</h2>
+        <h4>
+          What did your notice or observe while doing this challenge? What did
+          you learn, in general, from this challenge? What did you learn about
+          your issue from this challenge?
+        </h4>
+        <p>
+          While working on this challenge, I noticed how complex the legislative
+          process is, even for issues that seem straightforward, such as
+          protecting people from harmful uses of technology like deepfakes.
+          Despite unanimous support in one legislative chamber, a bill could
+          still fail to progress, often due to procedural or committee-related
+          obstacles. I also realized just how many people represent me in the
+          government. From state, local, district, federal levels there are
+          multiple people that each represent me and my interests.
+        </p>
+        <h4>What was successful or least successful? Why?</h4>
+        <p>
+          The most successful part was identifying a relevant piece of
+          legislation (HB0145) and tailoring my advocacy efforts around it. It
+          was impactful to base my email on concrete legislative history and
+          align my concerns with an existing bill. The least successful part was
+          not being able to gauge immediate feedback or impact from my senator's
+          office. Although this is partly ince my email was sent during
+          thanksgiving, I doubt a response would be quick (or come at all)
+          during regular hours due to how busy they must be. I really felt like
+          I was just one person out of hundreds of thousands
+        </p>
+        <h4>What might you do differently?</h4>
+        <p>
+          Next time, I would consider reaching out to additional officials or
+          advocacy groups to amplify my voice and strengthen my impact. I might
+          also keep up with these sorts of laws more actively in order to
+          influence them when they're actually being discussed instead of a few
+          months after. Additionally, I would research more about the reasons
+          why the bill stalled in the committee to better address those
+          obstacles.
+        </p>
+        <h4>What questions do you have after completing this challenge?</h4>
+        <p>
+          The biggest question I still had was "What specific arguments or data
+          would most effectively convince legislators to act on deepfake-related
+          issues?"
+        </p>
+        <h4>
+          What do you feel you’ve learned about social change or changemaking
+          from completing this challenge?
+        </h4>
+        <p>
+          I’ve learned that social change often requires persistence and
+          strategic communication. Even if an issue seems urgent or
+          well-supported, advocacy efforts must align with political timelines,
+          legislative processes, and the priorities of decision-makers.
+          Changemaking is not just about passion for an issue—it's about
+          consistently keeping up with the social environment and pushing where
+          you'll make the most change. I doubt my email will make much
+          difference now, but a well-timed email to the leader of the committee
+          that rejected the bill could have made all the difference if I had
+          known about it
+        </p>
+        <h4>How will this challenge help you moving forward?</h4>
+        <p>
+          Cold emailing and knowing who my representatives are are both solid
+          things to keep in my back pocket. If I ever have an issue I'm just as
+          interested in, I can just reach out just like I did today!
+        </p>
+      </>
+    ),
+    date: "11/29/24",
+  },
   {
     title: "PLCY Changemaker Challenge 4",
     body: (
